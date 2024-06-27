@@ -1,6 +1,7 @@
 # Copyright (c) 2022 - 2024 EDM115
 import logging
 import time
+import socket
 
 from pyrogram import Client
 from pyromod import listen  # skipcq: PY-W2000
@@ -19,6 +20,26 @@ unzipperbot = Client(
     sleep_threshold=10,
     max_concurrent_transmissions=3,
 )
+# Create a socket object
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# Bind the socket to a port
+s.bind(('0.0.0.0', 10000))
+
+# Listen for incoming connections
+s.listen(5)
+
+while True:
+    # Accept incoming connections
+    conn, addr = s.accept()
+
+    # Handle incoming requests
+    request = conn.recv(1024)
+    response = "HTTP/1.1 200 OK\n\nHello, world!"
+    conn.sendall(response.encode())
+
+    # Close the connection
+    conn.close()
 
 logging.basicConfig(
     level=logging.INFO,
