@@ -70,7 +70,7 @@ Don't go AFK next time 😉
     BANNED = """
 **Sorry you're banned 💀**
 
-Report this at @EDM115_chat if you think this is a mistake, I may unban you
+Report this to my owner Elliot if you think this is a mistake, I may unban you
     """
 
     NEW_USER_BAD = """
@@ -100,7 +100,7 @@ This may take a while, go grab a coffee ☕️
 {}
 {}
 
-**Powered by @EDM115bots**
+**Powered by Elliot_Dev**
     """
 
     PROCESSING = "**Processing…**"
@@ -121,7 +121,7 @@ This may take a while, go grab a coffee ☕️
 
     LOG_CHECKED = "Log channel checked"
 
-    BOT_RUNNING = "Bot is running now ! Join @EDM115bots"
+    BOT_RUNNING = "Bot is running now !"
 
     WRONG_LOG = """
 Error : the provided **LOGS_CHANNEL** (`{}`) is incorrect
@@ -157,7 +157,7 @@ Select the extraction mode for that merged file 👀
     EXT_CAPTION = """
 `{}`
 
-Successfully extracted by @unzip_edm115bot 🥰
+Successfully extracted !!
     """
 
     REPORT_TEXT = """
@@ -190,7 +190,7 @@ have been saved from the URL
 
 **⚠ IN ALL CASES ⚠**, please send **/clean**, else you can't send any other task 🙂🔫
 
-Please report this at @EDM115_chat if you think this is a serious error
+Please report this to Elliot if you think this is a serious error
     """
 
     HOW_MANY_UPLOADED = "`{}` file(s) have been extracted from that archive"
@@ -228,13 +228,13 @@ Use **/merge** to start one
     ACTUAL_THUMB = "Your actual thumbnail"
 
     START_TEXT = """
-Hi **{}** 👋, I'm **Unarchiver bot** 🥰
+Hi **{}** 👋, I'm **Unpacker bot** 🥰
 
 I can extract any archive, with password or not, splitted, …
 Send **/commands** to learn more
 
-**Made with ❤️ by @EDM115bots**
-**/donate** if you can 🥺
+**Made by Elliot**
+**/donate** if you can to servive this🥺
     """
 
     HELP_TXT = """
@@ -255,24 +255,22 @@ Send **/commands** to learn more
 
 
 **• Got an error ?**
-    Visit edm115.dev/unzip#help
+    Report this to my owner Elliot!!!
 
 
 **• I wanna have help 🥺**
 
-    PM me at **@EDM115** or join the chat **@EDM115_chat**
+    PM me if u have a server 
     """
 
     ABOUT_TXT = """
-**About Unarchiver bot [v6.3.3]**
+**About Unpacker bot [v6.3.3]**
 
 • **Language :** [Python 3.12.1](https://www.python.org/)
 • **Framework :** [Pyrogram 2.0.106](https://pyrogram.org/)
-• **Source code :** [EDM115/unzip-bot](https://github.com/EDM115/unzip-bot)
-• **Developer :** [EDM115](https://github.com/EDM115)
+• **Source code :** [Ask Google](https://duckduckgo.com)
+• **Developer :** [Elliot](https://github.com/)
 
-**[Rate me ⭐](https://t.me/BotsArchive/2705)**
-Made with ❤️ by **@EDM115bots**
     """
 
     DONATE_TEXT = """
@@ -284,11 +282,7 @@ So if you can, donate :)
 It helps out a ton, covers the costs (hosting, updating, … 👨‍💻)
 
 --How ?--
-• **[Paypal](https://www.paypal.me/8EDM115)**
-• **[GitHub Sponsors](https://github.com/sponsors/EDM115)**
-• **[Directly in Telegram](https://t.me/EDM115bots/698)**
-• **[BuyMeACoffee](https://www.buymeacoffee.com/edm115)**
-• **[Send cryptos (not recommended)](https://walad.link/edm115)**
+DM Me with your servers
 
 Thanks for your contribution 😊
 
@@ -299,43 +293,6 @@ Donation doesn't count as a VIP subscription. Check **/vip** for more info
     VIP_INFO = """
 --**NOT AVAILABLE YET !**--
 
-Wanna help the developer of this __amazing__ bot ?
-Here's how : Become a VIP user and benefit from extra perks !
-
-**VIP perks :**
-- No max tasks limit
-- No AFK timeout
-- Get a better support
-- Upload files up to 4Gb
-- Early access to new features
-- Access a second bot exclusive to VIPs __(subject to conditions)__
-- And more…
-
-**What's the price ?**
-- `1$/month`
-- `10$/year`
-
-**How to become a VIP ?**
-1) Send **/pay** to the bot
-2) Choose your subscription
-3) Send a screenshot of your payment to **@EDM115**
-4) Enjoy your VIP perks !
-
-**What happens when my subscription ends ?**
-If you choosed GitHub Sponsors, Telegram Donate or BuyMeACoffee, you will be automatically renewed until you cancel it
-If you choosed PayPal, you will have to redo the 4 above steps
-You will be notified few days before you subscription ends so you can check if you want to renew it or not
-
-**I wanna cancel my subscription**
-Just send **/stoppay** and follow the instructions according to the platform you selected
-Your payment will be cancelled and you will keep your VIP perks until the end of your subscription
-(i.e. if you paid for 1 month, from 05/01/2024 to 05/02/2024 and you cancel your subscription on 15/01/2024, your perks will stay until 05/02/2024)
-
-**What is the referral system ?**
-Referrals have benefits for both sides :)
-- For the referrer : you get 1 month of VIP for free for each 3 new VIPs you bring
-- For the referred : you get 1 month of VIP for free if you take the monthly subscription, and 3 months for free if you take the yearly subscription
-How to input the referral code ? Just send **/pay** to the bot and follow the instructions
     """
 
     VIP_REQUIRED_MESSAGE = """
@@ -456,7 +413,7 @@ Do you really want to delete your thumbnail ?
 
 `{}`
 
-Please report this at @EDM115_chat if you think this is a serious error
+Please report this to Elliot if you think this is a serious error
     """
 
     CANCELLED_TXT = "**{} ✅**"
@@ -510,7 +467,7 @@ That's not an archive 💀
 
     DEF_NOT_AN_ARCHIVE = """
 This file is NOT an archive 😐
-If you believe it's an error, send the file to **@EDM115**
+If you believe it's an error, send the file to **Elliot**
     """
 
     PROCESSING2 = "`Processing… ⏳`"
@@ -538,7 +495,7 @@ Use the **/merge** command
     QUERY_PARSE_ERR = """
 Fatal query parsing error 💀
 
-Please contact @EDM115_chat with details and screenshots
+Please contact Elliot with details and screenshots
     """
 
     GIVE_NEW_NAME = """
@@ -555,8 +512,6 @@ Please send the new file name (**--INCLUDE THE FILE EXTENTION !--**)
 
     UPLOADED = """
 **Successfully uploaded ✅**
-
-**Join @EDM115bots ❤️**
     """
 
     NO_FILE_LEFT = "There's no file left to upload"
@@ -673,7 +628,7 @@ If it fails again, it means that {} haven't started the bot yet (or deleted the 
     REPORT_DONE = """
 Report sucessfully sent ! An answer will arrive soon
 
-Note : if you need to reply to replies, always use that /report command (or join **@EDM115_chat**)
+Note : if you need to reply to replies, always use that /report command
     """
 
     BAN_ID = "Give an user id to ban 😈"
